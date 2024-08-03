@@ -1,0 +1,23 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-advanced-reader.ss" "lang")((modname |kosul tatmin problemleri|) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #t #t none #f () #f)))
+(define kenarlar (list(list 1 3)
+                      (list(1 2)
+                      (list 2 4)
+                      (list 3 2)
+                      (list 3 4)
+                      ))
+  (define dugumler (list 1 2 3 4))
+  (define renkler (list 1 2 3)
+    ; 1 mavi / 2 kırmızı / 3 yeşil 
+; aşağıdaki kod o koşulları sağlayıp sağlamadığımızı kontrol eden yapı
+    (defie cozum(list (list 1 1)
+                      (list 2 2)
+                      (list 3 3)
+                      (list 4 1)
+                      )
+      )
+    ; komşuları yazan fonksiyon(komşuların listesini dondüren fonksiyon (komsular dugum kenarlar_listesi))
+    (define (komsular d k )(if (empty? k)null
+                               ;listede hala eleman varsa ilk sıradaki duğum arana dugume eşit mi
+                               (if ))  ; 13.dakika
